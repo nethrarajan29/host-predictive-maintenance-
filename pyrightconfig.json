@@ -1,0 +1,24 @@
+{
+  "venvPath": "C:\\Users\\ritha\\AppData\\Local\\Python",
+  "pythonPath": "C:\\Users\\ritha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": [
+        "c:\\Users\\ritha\\OneDrive\\Desktop\\Predweek3",
+        "c:\\Users\\ritha\\OneDrive\\Desktop\\Predweek3\\model",
+        "c:\\Users\\ritha\\OneDrive\\Desktop\\Predweek3\\simulator",
+        "c:\\Users\\ritha\\OneDrive\\Desktop\\Predweek3\\preprocessing",
+        "c:\\Users\\ritha\\OneDrive\\Desktop\\Predweek3\\utils",
+        "C:\\Users\\ritha\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages",
+        "C:\\Users\\ritha\\AppData\\Roaming\\Python\\Python314\\site-packages"
+      ]
+    }
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownArgumentType": "none"
+}

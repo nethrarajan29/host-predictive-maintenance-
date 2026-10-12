@@ -1,0 +1,21 @@
+{
+  "labour_cost": 2500.0,
+  "spare_parts_cost": 3500.0,
+  "inspection_cost": 1200.0,
+  "service_cost": 800.0,
+  "other_expenses": 0.0,
+  "preventive_cost_total": 8000.0,
+  "repair_replacement_cost": 14000.0,
+  "downtime_cost": 8000.0,
+  "production_loss": 5000.0,
+  "emergency_labour_cost": 4000.0,
+  "failure_impact_total": 31000.0,
+  "electricity_rate": 8.0,
+  "nominal_voltage": 415.0,
+  "power_factor": 0.85,
+  "operating_hours_per_day": 24.0,
+  "rul_critical_days": 3.0,
+  "rul_urgent_days": 7.0,
+  "rul_schedule_days": 15.0,
+  "rul_plan_days": 30.0
+}

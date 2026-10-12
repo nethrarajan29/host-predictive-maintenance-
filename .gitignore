@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build and distribution
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node / Frontend Dependencies & Temp Files
+node_modules/
+**/node_modules/
+**/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Whitelist compiled production frontend distribution so anyone can run without node
+!frontend/dist/
+!frontend/dist/**
+
+# Environment and Local Secrets
+.env
+.env.*
+.env*.local
+*.local
+kaggle.json
+*.pem
+key.pem
+cert.pem
+
+# Downloaded Datasets and Pipeline Artifacts (offline data stays outside repo)
+datasets/
+data/raw/
+
+# IDE configurations
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+

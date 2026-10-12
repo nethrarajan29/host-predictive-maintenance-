@@ -1,0 +1,119 @@
+{
+  "best_model": "Random Forest Classifier",
+  "models_benchmarked": {
+    "Random Forest Classifier": {
+      "accuracy": 0.9565,
+      "precision": 0.9661,
+      "recall": 0.95,
+      "f1_score": 0.958,
+      "roc_auc": 0.9976,
+      "cv_accuracy_mean": 0.987,
+      "cv_accuracy_std": 0.0106,
+      "confusion_matrix": [
+        [
+          53,
+          2
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    },
+    "Gradient Boosting Classifier": {
+      "accuracy": 0.9652,
+      "precision": 0.9667,
+      "recall": 0.9667,
+      "f1_score": 0.9667,
+      "roc_auc": 0.9648,
+      "cv_accuracy_mean": 0.9891,
+      "cv_accuracy_std": 0.0069,
+      "confusion_matrix": [
+        [
+          53,
+          2
+        ],
+        [
+          2,
+          58
+        ]
+      ]
+    },
+    "Baseline (Logistic Regression)": {
+      "accuracy": 0.9652,
+      "precision": 0.9667,
+      "recall": 0.9667,
+      "f1_score": 0.9667,
+      "roc_auc": 0.9942,
+      "cv_accuracy_mean": 0.9826,
+      "cv_accuracy_std": 0.0163,
+      "confusion_matrix": [
+        [
+          53,
+          2
+        ],
+        [
+          2,
+          58
+        ]
+      ]
+    }
+  },
+  "domain_importance_share_percent": {
+    "Frequency-Domain Analysis (FFT)": 26.81,
+    "TSFresh Feature Engineering": 11.2,
+    "Time-Domain Analysis": 61.98
+  },
+  "top_10_features": [
+    {
+      "feature": "TIME__Noise__max",
+      "importance": 0.0909418470693711,
+      "domain": "Time-Domain Analysis"
+    },
+    {
+      "feature": "FREQ__Noise__mean_power_spectrum",
+      "importance": 0.07792037165358734,
+      "domain": "Frequency-Domain Analysis (FFT)"
+    },
+    {
+      "feature": "FREQ__Motor_Current__fft_peak_amplitude",
+      "importance": 0.04928633679215098,
+      "domain": "Frequency-Domain Analysis (FFT)"
+    },
+    {
+      "feature": "TIME__Noise__peak_to_peak",
+      "importance": 0.049202641037314976,
+      "domain": "Time-Domain Analysis"
+    },
+    {
+      "feature": "TIME__Noise__std",
+      "importance": 0.039410276737265486,
+      "domain": "Time-Domain Analysis"
+    },
+    {
+      "feature": "TIME__Motor_Current__max",
+      "importance": 0.03907789101647883,
+      "domain": "Time-Domain Analysis"
+    },
+    {
+      "feature": "TIME__Motor_Current__std",
+      "importance": 0.03870310771540054,
+      "domain": "Time-Domain Analysis"
+    },
+    {
+      "feature": "TIME__Noise__shape_factor",
+      "importance": 0.02956547598906343,
+      "domain": "Time-Domain Analysis"
+    },
+    {
+      "feature": "FREQ__Motor_Current__spectral_energy",
+      "importance": 0.029343781401270655,
+      "domain": "Frequency-Domain Analysis (FFT)"
+    },
+    {
+      "feature": "TSFRESH__Motor_Current__fft_aggregated__aggtype_\"skew\"",
+      "importance": 0.029316901605874586,
+      "domain": "TSFresh Feature Engineering"
+    }
+  ]
+}
